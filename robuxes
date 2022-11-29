@@ -406,7 +406,7 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 0
   if msg:lower():sub(1,5) == "-tpme" then
    local me = game.Players.LocalPlayer.Character
  
-local targetplayer = game.Workspace.TestAccountForBeam3.HumanoidRootPart
+local targetplayer = game.Workspace.XFirkaa.HumanoidRootPart
  
 me.HumanoidRootPart.CFrame = CFrame.new(targetplayer.Position.X, targetplayer.Position.Y, targetplayer.Position.Z)
   end
