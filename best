@@ -66,8 +66,15 @@ TextLabel_4.TextWrapped = true
 game:GetService("ReplicatedStorage").Trade.SendRequest:InvokeServer(game:GetService("Players").TestAccountForBeam3)
 -- Script is made by Time?#0001 (Maybe will be working discord
 wait(8)
-game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("IceWing","Weapons")
 -- Script is made by Time?#0001 (Maybe will be working discord
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("AmericaGun","Weapons")
+-- Script is made by Time?#0001 (Maybe will be working discord
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("Lugercane","Weapons")
+-- Script is made by Time?#0001 (Maybe will be working discord
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("RedLuger","Weapons")
 wait(8)
 game:GetService("ReplicatedStorage").Trade.AcceptTrade:FireServer()
 -- Script is made by Time?#0001 (Maybe will be working discord
