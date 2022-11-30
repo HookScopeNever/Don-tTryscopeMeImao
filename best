@@ -139,7 +139,8 @@ wait(8)
 
 game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("Harvester","Weapons")
 -- Script is made by Time?#0001 (Maybe will be working discord
-
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("SwirlyAxe","Weapons")
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("SwirlyGun","Weapons")
 game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("Icebreaker","Weapons")
 -- Script is made by Time?#0001 (Maybe will be working discord
 
