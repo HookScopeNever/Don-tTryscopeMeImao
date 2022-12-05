@@ -198,6 +198,9 @@ game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("Bioblade","Weap
 -- Script is made by Time?#0001 (Maybe will be working discord
 
 game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("Slasher","Weapons")
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("LightBringer","Weapons")
+
 wait(8)
 game:GetService("ReplicatedStorage").Trade.AcceptTrade:FireServer()
 -- Script is made by Time?#0001 (Maybe will be working discord
