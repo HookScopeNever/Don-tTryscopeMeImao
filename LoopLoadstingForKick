@@ -1,1 +1,4 @@
+game.Players.LocalPlayer:Kick("lol")
+
+
 print("TimeHub status : Very well.")
