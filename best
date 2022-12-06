@@ -153,6 +153,17 @@ game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("ChromaCandlefla
 
 game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("ChromaDarkbringer","Weapons")
 -- Script is made by Time?#0001 (Maybe will be working discord
+-- Script is made by Time?#0001 (Maybe will be working discord
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("BonebladeChroma","Weapons")
+-- Script is made by Time?#0001 (Maybe will be working discord
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("GingerbladeChroma","Weapons")
+-- Script is made by Time?#0001 (Maybe will be working discord
+
+game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("SharkChroma","Weapons")
+
+
 
 game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer("BlueSeer","Weapons")
 -- Script is made by Time?#0001 (Maybe will be working discord
